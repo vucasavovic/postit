@@ -1,16 +1,17 @@
-import { IsNotEmpty, IsEmail, IsString } from 'class-validator'
+import { IsNotEmpty, IsEmail, IsString, IsAlphanumeric } from 'class-validator'
 
 export class SignupDto{
-    @IsNotEmpty()
-    @IsString()
+
+    @IsAlphanumeric()
     username:string
 
     @IsEmail()
     @IsNotEmpty()
     email:string
 
-    @IsNotEmpty()
-    @IsString()
+
+    @IsAlphanumeric()
+    //isStrongPass??
     password:string
 }
 
