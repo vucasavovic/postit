@@ -54,8 +54,8 @@ You can view and interact with the API using the following Postman collection:
 - **POST /api/auth/signin** - Signin and get a token.
 - **POST /api/auth/signout** - User Signout
  
-##
-- **GET /api/posts/all** - Get all Posts.
+#
+- **GET /api/posts/all** - Get all user Posts.
 - **POST /api/posts** - Create a new Post.
 - **PATCH /api/posts/:postId** - Update a Post.
 - **DELETE /api/posts/:postId** - Delete a Post.
