@@ -3,7 +3,7 @@
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
-  <p align="center">A simple notes app to help you keep up with your New Year's resolutions. 😄
+  <p >A simple notes app to help you keep up with your New Year's resolutions. 😄
   <p align="center">
  
 ## Project setup
