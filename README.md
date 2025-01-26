@@ -5,7 +5,7 @@
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
-  <p align="center">A simple notes app to help you keep   up with your new year's resolutions 😄
+  <p align="center">A simple notes app to help you keep up with your New Year's resolutions. 😄
   <p align="center">
  
 ## Description
@@ -43,6 +43,24 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+## Documentation
+You can view and interact with the API using the following Postman collection:
+
+[Postman API Documentation](https://www.postman.com/mesavista/postit/overview)
+
+
+## Endpoints
+- **POST /api/auth/signup** - User Signup
+- **POST /api/auth/signin** - Signin and get a token.
+- **POST /api/auth/signout** - User Signout
+ 
+##
+- **GET /api/posts/all** - Get all Posts.
+- **POST /api/posts** - Create a new Post.
+- **PATCH /api/posts/:postId** - Update a Post.
+- **DELETE /api/posts/:postId** - Delete a Post.
+
+
 
 ## Deployment
 
