@@ -8,10 +8,6 @@
   <p align="center">A simple notes app to help you keep up with your New Year's resolutions. 😄
   <p align="center">
  
-## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
 ## Project setup
 
 ```bash
