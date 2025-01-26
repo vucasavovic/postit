@@ -26,19 +26,7 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-
-## Run tests
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
+ 
 ## Documentation
 You can view and interact with the API using the following Postman collection:
 
